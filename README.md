@@ -17,3 +17,5 @@ npm run build
 # 开启服务端
 cd server && node index.js
 ```
+# 爬虫
+使用了puppeteer能动态的获取网页图片的src，再通过axios请求获得图片内容，将该内容由stream写入到文件夹。
